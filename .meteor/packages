@@ -20,16 +20,8 @@ shell-server@0.2.3            # Server-side component of the `meteor shell` comm
 kadira:flow-router
 kadira:blaze-layout
 
-stolinski:stylus-multi
-fortawesome:fontawesome
-spiderable
-fastclick
-raix:handlebar-helpers
-aldeed:collection2
 
+aldeed:collection2
+aldeed:autoform
 accounts-ui
 accounts-password
-matb33:bootstrap-glyphicons
-msavin:jetsetter
-zimme:active-route
-gwendall:auth-client-callbacks
