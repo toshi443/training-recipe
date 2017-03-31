@@ -1,14 +1,7 @@
 <template name="MainLayout">
-    <header>
-        <h1>My Training Recipe</h1>
-        {{> loginButtons}}
-    </header>
-
-    <main>
+    {{> Header}}
+    {{> SideNav}}
+    <main class="main-layout">
         {{> Template.dynamic template=main}}
     </main>
-</template>
-
-<template name="Test">
-    <p>this is test</p>
 </template>
